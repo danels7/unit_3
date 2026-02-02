@@ -21,3 +21,6 @@ new_items: list[str] = [
 
 for i in new_items:
     items.append(i)
+
+
+print(f"Updated list in reverse-alphabetical order: {sorted(items, reverse=True)}")
