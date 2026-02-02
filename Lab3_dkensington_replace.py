@@ -8,3 +8,8 @@ imported from Lab3_dkensington_list.py
 """
 
 
+from Lab3_dkensington_add import items
+from random import randint
+
+
+items[randint(1, len(items)-2)] = "binoculars"
