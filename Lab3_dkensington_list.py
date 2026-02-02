@@ -20,5 +20,6 @@ items: list[str] = [
 ]
 
 
-print(f"Total number of items: {len(items)}")
-print(f"Items in alphabetical order: {sorted(items)}")
+if __name__ == "__main__":
+    print(f"Total number of items: {len(items)}")
+    print(f"Items in alphabetical order: {sorted(items)}")

@@ -23,4 +23,5 @@ for i in new_items:
     items.append(i)
 
 
-print(f"Updated list in reverse-alphabetical order: {sorted(items, reverse=True)}")
+if __name__ == "__main__":
+    print(f"Updated list in reverse-alphabetical order: {sorted(items, reverse=True)}")
