@@ -12,3 +12,8 @@ from Lab3_dkensington_replace import items
 
 
 items.remove("binoculars")
+
+
+if __name__ == "__main__":
+    print(f"Final list: {items}")
+    print(f"Total number of items: {len(items)}")
